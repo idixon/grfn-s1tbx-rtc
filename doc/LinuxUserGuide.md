@@ -1,8 +1,6 @@
 # User Guide
 
-
 ## Background
-
 
 The Alaska Satellite Facility (ASF) has developed an advanced product toolbox (TBX) capable of conducting Radiometric Terrain Correction (RTC) with Sentinel-1 data named S-1TBX RTC. The toolbox provides automated fetching of data from ASF's datapool (https://vertex.daac.asf.alaska.edu), Digital Elevation Map (DEM) selection and stitching, and bundles the European Space Agency's Sentinel Application Platform (SNAP) toolbox with a recipe for processing RTC products from start to finish. This allows users to begin with a single granule name and in one command produce RTC analysis ready Sentinel-1 end products.
 
@@ -164,3 +162,4 @@ sh s1tbx-rtc.sh --granule GRANULE [--username USERNAME] [--password PASSWORD] [-
 | --layover| Include layover shadow mask in output. | 
 | --incidenceAngle | Include projected local incidence angle in output.     | 
 | --clean |Set very small pixel values to No Data. Helpful to clean edge artifacts of granules processed before IPF version 2.90 (3/13/2018). May adversely affect valid data.  | 
+
